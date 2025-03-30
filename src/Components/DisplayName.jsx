@@ -15,6 +15,7 @@ const DisplayName =()=>{
         setFullName(`Full Name: ${firstName} ${lastName}`);
     }
 return(
+    // Display full Name code
     <div>
         <h1>Full Name Display</h1>
         <form onSubmit={HandleSubmit}>
